@@ -2,7 +2,7 @@
 
 //sum of n natural numbers threw recurion
 
-/*class Ankit1{
+class Ankit1{
    static int fun(int n){
       if(n==0){
          return 0;
@@ -19,11 +19,11 @@
       System.out.println("sum of " +n+ " natural number will be: ");
       System.out.println(fun(n));
    }
-}*/
+}
 
 //factorial of number n by using recursion
 
-/*class Ankit1{
+class Ankit1{
    static int fun(int n){
       if(n==0 || n==1){
          return 1;
@@ -37,11 +37,11 @@
       System.out.println("factorial of " +n+" will be: " );
       System.out.println(fun(n));
    }
-}*/
+}
 
 //print 1 to n without using for loop 
 
-/*class Ankit1 {
+class Ankit1 {
    static void fun(int n) {
       if (n == 0) {
          return;
@@ -57,11 +57,11 @@
       int n = 5;
       fun(n);
    }
-}*/
+}
 
 //check wheather given element is present in array or not using recursion
 
-/*class Ankit1{
+class Ankit1{
    public static boolean fun(int arr[],int l,int u,int x){
       if(u<l){
          return false;
@@ -80,11 +80,11 @@
       System.out.println(fun(arr, l, u, x));
    }
 
-}*/
+}
 
 //tower of HANOI problem using recursion
 
-/*class Recursion{
+class Recursion{
    static void Toh(int n,char A,char B,char C){
       if(n==1){
          System.out.println("disk "+n+" move from "+A+" to "+C);
@@ -100,7 +100,7 @@
       Toh(n,'A','B','C');
    }
    
-   }*/
+   }
 
    //subset generation problem 
 
